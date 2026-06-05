@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "lss": "https://www.lean.org/lexicon-terms/",
+    "qudt": "http://qudt.org/vocab/unit/",
+
+    "LeanSixSigmaMethodology": {
+      "@id": "lss:lean-six-sigma",
+      "@type": "@id"
+    },
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "industry": "schema:industryIdentifier",
+    "organization": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    },
+    "methodology": {
+      "@id": "lss:methodology",
+      "@type": "@id"
+    },
+
+    "DMAIC": {
+      "@id": "lss:dmaic",
+      "@comment": "Define, Measure, Analyze, Improve, Control — the core Six Sigma improvement cycle"
+    },
+    "DMADV": {
+      "@id": "lss:dmadv",
+      "@comment": "Define, Measure, Analyze, Design, Verify — Six Sigma design methodology"
+    },
+    "defectsPerMillion": {
+      "@id": "lss:defects-per-million-opportunities",
+      "@type": "schema:Number"
+    },
+    "sigmaLevel": {
+      "@id": "lss:sigma-level",
+      "@type": "schema:Number"
+    },
+    "processCapability": {
+      "@id": "lss:process-capability",
+      "@type": "schema:PropertyValue"
+    },
+    "controlChart": {
+      "@id": "lss:control-chart",
+      "@type": "@id"
+    },
+    "valueStream": {
+      "@id": "lss:value-stream",
+      "@type": "@id"
+    },
+    "kaizen": {
+      "@id": "lss:kaizen",
+      "@comment": "Continuous improvement event or philosophy"
+    },
+    "muda": {
+      "@id": "lss:muda",
+      "@comment": "Waste — any activity that consumes resources without creating value"
+    },
+    "cycleTime": {
+      "@id": "lss:cycle-time",
+      "@type": "schema:Duration"
+    },
+    "taktTime": {
+      "@id": "lss:takt-time",
+      "@type": "schema:Duration"
+    },
+    "overallEquipmentEffectiveness": {
+      "@id": "lss:oee",
+      "@type": "schema:Number"
+    },
+    "rootCauseAnalysis": {
+      "@id": "lss:root-cause-analysis",
+      "@type": "@id"
+    },
+    "fishboneDiagram": {
+      "@id": "lss:fishbone-diagram",
+      "@type": "@id"
+    },
+    "pareto": {
+      "@id": "lss:pareto-chart",
+      "@type": "@id"
+    },
+    "poka_yoke": {
+      "@id": "lss:poka-yoke",
+      "@comment": "Error-proofing mechanism or technique"
+    },
+    "5S": {
+      "@id": "lss:5s",
+      "@comment": "Sort, Set in order, Shine, Standardize, Sustain"
+    },
+    "kanban": {
+      "@id": "lss:kanban",
+      "@comment": "Pull-based scheduling system for workflow management"
+    },
+    "greenBelt": {
+      "@id": "lss:green-belt",
+      "@comment": "Six Sigma practitioner certification level"
+    },
+    "blackBelt": {
+      "@id": "lss:black-belt",
+      "@comment": "Six Sigma expert certification level"
+    }
+  }
+}

@@ -1,0 +1,166 @@
+vocabulary:
+  name: Lean Six Sigma Vocabulary
+  description: >-
+    Key terms and concepts from the Lean Six Sigma methodology, combining Lean
+    manufacturing principles with Six Sigma quality management to eliminate waste
+    and reduce process variation.
+  version: "1.0"
+  terms:
+    - term: DMAIC
+      definition: >-
+        The core Six Sigma improvement cycle: Define (the problem and goals),
+        Measure (current performance), Analyze (root causes), Improve (implement
+        solutions), and Control (sustain gains). Applied to existing processes
+        that fall below specification.
+      tags:
+        - six-sigma
+        - improvement-cycle
+        - methodology
+
+    - term: DMADV
+      definition: >-
+        Six Sigma design methodology: Define, Measure, Analyze, Design, Verify.
+        Used for creating new processes or products at Six Sigma quality levels
+        when existing processes cannot be adequately improved.
+      tags:
+        - six-sigma
+        - design-methodology
+        - new-product
+
+    - term: Sigma Level
+      definition: >-
+        A statistical measure of process performance expressed in standard
+        deviations from the mean to the nearest specification limit. Six Sigma
+        corresponds to approximately 3.4 defects per million opportunities
+        (DPMO), indicating near-perfect quality.
+      tags:
+        - six-sigma
+        - statistics
+        - quality-metric
+
+    - term: DPMO
+      definition: >-
+        Defects Per Million Opportunities — the number of defects in a process
+        per one million opportunities for a defect to occur. The primary metric
+        for Six Sigma quality level; a Six Sigma process has no more than 3.4
+        DPMO.
+      tags:
+        - six-sigma
+        - quality-metric
+        - measurement
+
+    - term: Value Stream Mapping
+      definition: >-
+        A lean technique for visualizing all steps (value-added and non-value-added)
+        in a production or service process from raw material to customer delivery.
+        Used to identify waste (muda) and design a leaner future-state process.
+      tags:
+        - lean
+        - waste-elimination
+        - process-mapping
+
+    - term: Muda
+      definition: >-
+        The Japanese term for waste — any activity that consumes resources
+        (time, material, labor) without creating value for the customer. The
+        seven classic wastes are: transport, inventory, motion, waiting,
+        overproduction, over-processing, and defects (TIM WOOD).
+      tags:
+        - lean
+        - waste
+        - japanese-term
+
+    - term: Kaizen
+      definition: >-
+        A Japanese philosophy meaning "continuous improvement." In Lean practice,
+        kaizen refers to incremental, ongoing improvement involving all employees.
+        Kaizen events (or blitzes) are focused short-term improvement workshops.
+      tags:
+        - lean
+        - continuous-improvement
+        - japanese-term
+
+    - term: Takt Time
+      definition: >-
+        The available production time divided by customer demand rate; the
+        maximum time allowed to produce a product or deliver a service to meet
+        customer demand. Drives pacing of production in lean systems.
+      tags:
+        - lean
+        - production-pacing
+        - measurement
+
+    - term: Control Chart
+      definition: >-
+        A statistical process control (SPC) tool that plots process data over
+        time with calculated upper and lower control limits. Used to distinguish
+        common-cause variation (natural) from special-cause variation (requiring
+        investigation) and to verify that improvements are sustained.
+      tags:
+        - six-sigma
+        - statistical-process-control
+        - measurement
+
+    - term: Poka-Yoke
+      definition: >-
+        Japanese for "mistake-proofing" — a device or procedure designed to
+        prevent errors or defects from being made or passed on. Examples include
+        physical jigs, interlocks, checklists, and software validation rules.
+      tags:
+        - lean
+        - error-proofing
+        - japanese-term
+
+    - term: Overall Equipment Effectiveness (OEE)
+      definition: >-
+        A composite metric measuring manufacturing productivity as the product
+        of Availability, Performance, and Quality rates. A world-class OEE is
+        considered 85% or above. Used to identify and quantify losses in
+        manufacturing equipment.
+      tags:
+        - lean
+        - manufacturing
+        - productivity-metric
+
+    - term: Root Cause Analysis (RCA)
+      definition: >-
+        A structured problem-solving approach to identify the fundamental cause
+        of a defect or failure rather than treating symptoms. Common tools
+        include the 5 Whys, fishbone (Ishikawa) diagrams, and fault tree analysis.
+      tags:
+        - six-sigma
+        - problem-solving
+        - quality-tool
+
+    - term: Kanban
+      definition: >-
+        A pull-based scheduling system that signals upstream processes to
+        produce or replenish only what has been consumed downstream. Prevents
+        overproduction and reduces inventory; widely used in both manufacturing
+        and software development workflows.
+      tags:
+        - lean
+        - pull-system
+        - scheduling
+
+    - term: Process Capability (Cp / Cpk)
+      definition: >-
+        Statistical indices that measure how well a process produces output
+        within specification limits. Cp measures potential capability; Cpk
+        measures actual capability accounting for process centering. A Cpk ≥ 1.33
+        is generally considered capable.
+      tags:
+        - six-sigma
+        - statistics
+        - quality-metric
+
+    - term: 5S
+      definition: >-
+        A lean workplace organization methodology: Sort (remove unneeded items),
+        Set in Order (organize what remains), Shine (clean the workspace),
+        Standardize (document and maintain the first three steps), and Sustain
+        (embed as ongoing discipline). Foundation for visual management.
+      tags:
+        - lean
+        - workplace-organization
+        - visual-management
