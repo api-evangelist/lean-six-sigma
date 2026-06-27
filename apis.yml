@@ -21,7 +21,7 @@ apis: []
 common:
   - type: Website
     url: https://www.lean.org/lexicon-terms/six-sigma/
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://www.lean.org/llms.txt
 maintainers:
   - FN: Kin Lane
