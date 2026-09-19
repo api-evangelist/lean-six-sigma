@@ -1,10 +1,8 @@
 aid: lean-six-sigma
 name: Lean Six Sigma
-description: >-
-  Lean Six Sigma is a methodology that combines Lean manufacturing principles
-  and Six Sigma quality management techniques to improve business processes by
-  eliminating waste and reducing variation, focusing on data-driven decision
-  making and continuous improvement.
+description: Lean Six Sigma is a methodology that combines Lean manufacturing principles and Six Sigma quality management
+  techniques to improve business processes by eliminating waste and reducing variation, focusing on data-driven
+  decision making and continuous improvement.
 type: Index
 deliveryModel:
   model: unknown
@@ -30,25 +28,29 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lean-six-sigma.png
 tags:
-  - Business Process
-  - Continuous Improvement
-  - Methodology
-  - Process Improvement
-  - Quality Management
+- Business Process
+- Continuous Improvement
+- Methodology
+- Process Improvement
+- Quality Management
 url: https://raw.githubusercontent.com/api-evangelist/lean-six-sigma/refs/heads/main/apis.yml
 created: '2025-01-01'
 modified: '2026-04-28'
 specificationVersion: '0.23'
 apis: []
 common:
-  - type: DomainSecurity
-    url: security/lean-six-sigma-domain-security.yml
-  - type: Website
-    url: https://www.lean.org/lexicon-terms/six-sigma/
-  - type: LlmsText
-    url: https://www.lean.org/llms.txt
+- type: DomainSecurity
+  url: security/lean-six-sigma-domain-security.yml
+- type: Website
+  url: https://www.lean.org/lexicon-terms/six-sigma/
+- type: LlmsText
+  url: https://www.lean.org/llms.txt
+- type: Website
+  url: https://www.lean.org/
+- url: https://www.lean.org/the-lean-post/articles/
+  type: Blog
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
 x-parent: lean-management
 x-relationship: product
